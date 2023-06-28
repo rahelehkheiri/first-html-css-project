@@ -1,0 +1,159 @@
+header{
+    margin: 1px 0px;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 2rem;
+    color: white;
+    background-image: url(../images.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-shadow: 2px 2px 3px #f7921f;
+    /* background-image: radial-gradient( #f7a440, rgba(255, 255, 255, 0.822), #e7e7e7); */
+    height: 80px;
+}
+main{
+    background-color: #e7e7e7;
+    width: 100%;
+}
+/* #nav.img{
+    position: relative;
+}
+#nav.text{
+    position: absolute;
+    left: 3px;
+}
+nav.navbar{
+    width: 100%;
+    border: 3px solid #f7a440;
+    margin: 2px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    border: #aaaaaa;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    float: right;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+} */
+.navbar{
+    list-style-type: none;
+    border: 3px solid #f7a440;
+    background-color: white;
+    border-radius: 10px;
+    margin: 3px 0px;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+.navbar li a:hover{
+    color: #f7a440;
+}
+#airplane{
+    width: 100%;
+}
+#insurdubai{
+    border: #f7a440 solid 3px;
+    width: 85%;
+    height: 130px;
+    background-color: #aaaaaa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+}
+#insur img{
+    position: relative;
+}
+#insur a{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+#dubai img{
+    position: relative;
+}
+#dubai a{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+.alibaba{
+    margin: 10px 100px;
+    direction: rtl;
+}
+.alibaba h1{
+    position: relative;
+}
+.alibaba h2{
+    position: relative;
+}
+.alibaba p{
+    text-align: justify;
+    direction: rtl;
+    padding-top: 10px;
+    line-height: 25px;
+}
+.alibaba img{
+    float: left;
+    margin: 3px 10px 5px 3px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+}
+footer{
+    width: 80%;
+    margin: auto;
+}
+#footer1{
+    display: flex;
+    justify-content: space-around;
+}
+.footer1 h1{
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+    direction: rtl;
+}
+.footer1 p{
+    direction: rtl;
+    text-align: justify;
+}
+.footer1 img{
+    float: right;
+}
+.footer1{
+    text-decoration: solid;
+}
+.footer3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
